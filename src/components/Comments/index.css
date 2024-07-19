@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  object-fit: contain;
 }
 
 .container {
@@ -127,4 +128,28 @@ hr {
 }
 ul {
   width: 100%;
+}
+
+@media screen and (max-width: 520px) {
+  .element-container {
+    flex-direction: column;
+  }
+
+  .container {
+    align-items: center;
+  }
+
+  .internal-container {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .text-align{
+    text-align: left;
+    width: 100%;
+  }
 }

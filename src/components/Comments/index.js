@@ -118,7 +118,7 @@ class Comments extends Component {
             </form>
           </div>
           <hr />
-          <p>
+          <p className="text-align">
             <span className="counter">{commentCount}</span>Comment
           </p>
           <ul type="none">

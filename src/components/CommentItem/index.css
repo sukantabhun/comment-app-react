@@ -76,6 +76,7 @@ li {
 .btn {
   background-color: transparent;
   border: none;
+  color: #64748b;
 }
 .like-btn {
   display: flex;
